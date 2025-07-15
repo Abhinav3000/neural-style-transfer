@@ -1,18 +1,26 @@
-# 🎨 Neural Style Transfer (Gradio + Hugging Face Spaces)
+# 🎨 Neural Style Transfer App
 
-This project allows users to upload a content image and a style image, and generate a stylized image using neural style transfer with VGG19 and PyTorch.
+Bring your images to life by blending them with famous painting styles using deep learning and PyTorch!  
+This project lets you upload or paste a URL for your content image, choose a famous painting style (or upload your own), adjust the style intensity, quality, and image size — and finally download your AI-generated artwork ✨
 
-## 🚀 Try it Live
-Deploy this project on [Hugging Face Spaces](https://huggingface.co/spaces) using Gradio.
+---
 
-## 🧰 Tech Stack
-- Python
-- PyTorch
-- Gradio
-- Hugging Face Spaces
+## 🚀 Features
 
-## 📂 Setup Locally
+✅ Upload content image or paste URL  
+✅ Choose from famous styles: Van Gogh, Monet, Madhubani  
+✅ Upload your own custom style  
+✅ Maintains aspect ratio using smart padding  
+✅ Adjust quality (steps), style intensity (weight), and output size  
+✅ Download final stylized image  
 
-```bash
-pip install -r requirements.txt
-python app.py
+---
+
+## 🖼 Preloaded Styles
+
+- **Van Gogh – Starry Night**
+- **Monet – Water Lilies**
+- **Madhubani – Indian Folk Art**
+
+Place these images inside the `styles/` folder with the following filenames:
+
