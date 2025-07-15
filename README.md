@@ -1,26 +1,43 @@
 # 🎨 Neural Style Transfer App
 
-Bring your images to life by blending them with famous painting styles using deep learning and PyTorch!  
-This project lets you upload or paste a URL for your content image, choose a famous painting style (or upload your own), adjust the style intensity, quality, and image size — and finally download your AI-generated artwork ✨
+Turn your photos into stunning artwork using deep learning!  
+Built with **PyTorch**, **Gradio**, and deployed on **Hugging Face Spaces**.
 
 ---
 
-## 🚀 Features
+## 🚀 Demo
 
-✅ Upload content image or paste URL  
-✅ Choose from famous styles: Van Gogh, Monet, Madhubani  
-✅ Upload your own custom style  
-✅ Maintains aspect ratio using smart padding  
-✅ Adjust quality (steps), style intensity (weight), and output size  
-✅ Download final stylized image  
+👉 [Launch on Hugging Face](https://huggingface.co/spaces/abhinavkartikeya/neural-style-transfer)
 
 ---
 
-## 🖼 Preloaded Styles
+## 🧠 What It Does
 
-- **Van Gogh – Starry Night**
-- **Monet – Water Lilies**
-- **Madhubani – Indian Folk Art**
+This app blends two images:
+- A **content image** (e.g. village photo)
+- A **style image** (e.g. Starry Night, Mosaic)
 
-Place these images inside the `styles/` folder with the following filenames:
+Using a pre-trained **VGG19** model, it creates a new image that mimics the style while preserving the content.
+
+---
+
+## ✨ Features
+
+- ✅ Upload your own content and style images
+- 🎨 Choose from classic presets (Starry Night, Mosaic, The Scream...)
+- ⚙️ Control image size, steps, and style weight
+- 🧠 Based on neural style transfer (Gatys et al.)
+- 🚀 One-click deploy on Hugging Face
+
+---
+
+## 🖼️ Example Output
+
+| Content | Style (Starry Night) | Stylized Output |
+|---------|----------------------|-----------------|
+| ![](assets/Content image.jpeg) | ![](styles/starry_night.jpg) | ![](assets/Stylized output.png) |
+
+---
+
+## 📂 Folder Structure
 
