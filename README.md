@@ -35,7 +35,7 @@ Using a pre-trained **VGG19** model, it creates a new image that mimics the styl
 
 | Content | Style (Starry Night) | Stylized Output |
 |---------|----------------------|-----------------|
-| ![](assets/Content image.jpeg) | ![](styles/starry_night.jpg) | ![](assets/Stylized output.png) |
+| ![](assets/Content_image.jpeg) | ![](styles/starry_night.jpg) | ![](assets/Stylized_output.png) |
 
 ---
 
